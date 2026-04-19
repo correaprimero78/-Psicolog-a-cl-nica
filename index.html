@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitio web para psicóloga con enfoque humano, cálido y profesional.">
+    <title>Dra. Elena Robles | Psicología Clínica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Reemplaza el número por el WhatsApp real de la psicóloga. -->
+    <a class="floating-whatsapp" href="https://wa.me/5210000000000?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20sesi%C3%B3n" target="_blank" rel="noreferrer" aria-label="Abrir WhatsApp">
+        <span>WhatsApp</span>
+    </a>
+
+    <!-- Encabezado con navegación principal -->
+    <header class="site-header">
+        <div class="container nav-wrapper">
+            <a class="brand" href="#inicio">
+                <span class="brand-mark">ER</span>
+                <span class="brand-text">Dra. Elena Robles</span>
+            </a>
+
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="main-nav" id="main-nav">
+                <a href="#sobre-mi">Sobre mí</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#proceso">Proceso</a>
+                <a href="#testimonios">Testimonios</a>
+                <a href="#preguntas">FAQ</a>
+                <a class="nav-cta" href="#agenda">Agenda tu cita</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero con imagen amplia, propuesta de valor y CTA principal -->
+        <section class="hero" id="inicio">
+            <div class="hero-overlay"></div>
+            <div class="container hero-grid">
+                <div class="hero-copy reveal">
+                    <p class="eyebrow">Psicología clínica con enfoque cercano y humano</p>
+                    <h1>Un espacio seguro para sanar y crecer</h1>
+                    <p class="hero-text">
+                        Acompaño procesos emocionales con sensibilidad, escucha activa y herramientas terapéuticas adaptadas a cada historia.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="https://wa.me/5210000000000?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20sesi%C3%B3n" target="_blank" rel="noreferrer">Agenda tu primera sesión</a>
+                        <a class="button button-secondary" href="#sobre-mi">Conoce mi enfoque</a>
+                    </div>
+                </div>
+
+                <div class="hero-card reveal delay-1">
+                    <img src="https://images.unsplash.com/photo-1516302752625-fcc3c50ae61f?auto=format&fit=crop&w=900&q=80" alt="Psicóloga en consulta en un espacio cálido y luminoso">
+                    <div class="hero-card-content">
+                        <p>Atención presencial y online</p>
+                        <strong>Ciudad de México · Lun a Sáb</strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Presentación profesional y enfoque terapéutico -->
+        <section class="about section" id="sobre-mi">
+            <div class="container split-layout">
+                <div class="image-frame reveal">
+                    <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=900&q=80" alt="Retrato cálido de una psicóloga profesional">
+                </div>
+
+                <div class="section-copy reveal delay-1">
+                    <p class="section-tag">Sobre mí</p>
+                    <h2>Escuchar con profundidad también es una forma de cuidar</h2>
+                    <p>
+                        Soy la Dra. Elena Robles, psicóloga clínica especializada en ansiedad, vínculos afectivos y acompañamiento en procesos de duelo. Desde hace más de 9 años acompaño a personas que desean comprenderse mejor y construir una vida con más calma.
+                    </p>
+                    <p>
+                        Mi trabajo nace de la convicción de que toda persona merece un espacio donde pueda hablar sin juicio, sentirse sostenida y avanzar a su propio ritmo.
+                    </p>
+
+                    <div class="credentials">
+                        <article>
+                            <strong>Formación</strong>
+                            <span>Maestría en Psicoterapia Integrativa</span>
+                        </article>
+                        <article>
+                            <strong>Experiencia</strong>
+                            <span>9 años de consulta clínica</span>
+                        </article>
+                        <article>
+                            <strong>Especialidades</strong>
+                            <span>Ansiedad, duelo y terapia de pareja</span>
+                        </article>
+                    </div>
+
+                    <blockquote>
+                        “No siempre podemos evitar el dolor, pero sí aprender a atravesarlo con más apoyo y compasión.”
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tarjetas de servicios principales -->
+        <section class="services section" id="servicios">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="section-tag">Servicios</p>
+                    <h2>Un acompañamiento pensado para distintas etapas y necesidades</h2>
+                </div>
+
+                <div class="services-grid">
+                    <article class="service-card reveal">
+                        <div class="icon">01</div>
+                        <h3>Terapia individual</h3>
+                        <p>Un espacio para trabajar emociones, patrones y decisiones importantes con atención personalizada.</p>
+                        <span>Desde $700 MXN</span>
+                    </article>
+
+                    <article class="service-card reveal delay-1">
+                        <div class="icon">02</div>
+                        <h3>Terapia de pareja</h3>
+                        <p>Herramientas para mejorar la comunicación, reparar vínculos y construir acuerdos más sanos.</p>
+                        <span>Consultar</span>
+                    </article>
+
+                    <article class="service-card reveal delay-2">
+                        <div class="icon">03</div>
+                        <h3>Terapia online</h3>
+                        <p>Sesiones a distancia con la misma calidez y profundidad, ideales si necesitas flexibilidad.</p>
+                        <span>Desde $650 MXN</span>
+                    </article>
+
+                    <article class="service-card reveal">
+                        <div class="icon">04</div>
+                        <h3>Manejo de ansiedad</h3>
+                        <p>Aprende a reconocer señales, regular tu sistema emocional y recuperar sensación de estabilidad.</p>
+                        <span>Consultar</span>
+                    </article>
+
+                    <article class="service-card reveal delay-1">
+                        <div class="icon">05</div>
+                        <h3>Duelo</h3>
+                        <p>Acompañamiento sensible en pérdidas afectivas, cambios vitales y procesos de despedida.</p>
+                        <span>Consultar</span>
+                    </article>
+
+                    <article class="service-card reveal delay-2">
+                        <div class="icon">06</div>
+                        <h3>Orientación emocional</h3>
+                        <p>Un primer acercamiento para entender tu situación y definir el mejor camino terapéutico.</p>
+                        <span>Primera valoración</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Paso a paso para reducir fricción antes de agendar -->
+        <section class="process section" id="proceso">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="section-tag">¿Cómo funciona?</p>
+                    <h2>Dar el primer paso puede ser más simple de lo que imaginas</h2>
+                </div>
+
+                <div class="steps">
+                    <article class="step reveal">
+                        <div class="step-number">1</div>
+                        <h3>Agenda tu cita</h3>
+                        <p>Escríbeme por WhatsApp o completa el formulario para revisar horarios y modalidad.</p>
+                    </article>
+
+                    <article class="step reveal delay-1">
+                        <div class="step-number">2</div>
+                        <h3>Primera sesión</h3>
+                        <p>Exploramos tu motivo de consulta, contexto emocional y objetivos terapéuticos.</p>
+                    </article>
+
+                    <article class="step reveal delay-2">
+                        <div class="step-number">3</div>
+                        <h3>Inicia tu proceso</h3>
+                        <p>Definimos una ruta de trabajo clara, cuidadosa y acorde a tus tiempos.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonios para reforzar confianza -->
+        <section class="testimonials section" id="testimonios">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="section-tag">Testimonios</p>
+                    <h2>Historias que reflejan procesos reales de cambio</h2>
+                </div>
+
+                <div class="testimonials-grid">
+                    <article class="testimonial-card reveal">
+                        <span class="quote-mark">“</span>
+                        <p>Aprendí a escucharme sin culpa. La terapia me devolvió herramientas para sentirme en calma otra vez.</p>
+                        <div class="testimonial-person">
+                            <div class="avatar">AM</div>
+                            <div>
+                                <strong>Ana M.</strong>
+                                <span>5 estrellas</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="testimonial-card reveal delay-1">
+                        <span class="quote-mark">“</span>
+                        <p>Sentí un acompañamiento profesional pero también muy humano. Fue clave en un momento difícil de mi vida.</p>
+                        <div class="testimonial-person">
+                            <div class="avatar">CR</div>
+                            <div>
+                                <strong>Carlos R.</strong>
+                                <span>5 estrellas</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="testimonial-card reveal delay-2">
+                        <span class="quote-mark">“</span>
+                        <p>Las sesiones online fueron cómodas y profundas. Me ayudaron a ordenar pensamientos que llevaba tiempo evitando.</p>
+                        <div class="testimonial-person">
+                            <div class="avatar">LP</div>
+                            <div>
+                                <strong>Laura P.</strong>
+                                <span>5 estrellas</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ con acordeón controlado desde JS -->
+        <section class="faq section" id="preguntas">
+            <div class="container faq-layout">
+                <div class="section-copy reveal">
+                    <p class="section-tag">Preguntas frecuentes</p>
+                    <h2>Resolver dudas también ayuda a sentirte más seguro antes de comenzar</h2>
+                    <p>
+                        Esta sección está pensada para responder las preguntas más comunes antes de agendar una sesión.
+                    </p>
+                </div>
+
+                <div class="faq-list reveal delay-1">
+                    <article class="faq-item active">
+                        <button class="faq-question" type="button">
+                            <span>¿Cuánto dura una sesión?</span>
+                            <span class="faq-symbol">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>La duración habitual es de 50 minutos, aunque puede ajustarse según la necesidad del proceso.</p>
+                        </div>
+                    </article>
+
+                    <article class="faq-item">
+                        <button class="faq-question" type="button">
+                            <span>¿Haces sesiones online?</span>
+                            <span class="faq-symbol">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Sí. Trabajo en modalidad presencial y online, para que puedas elegir la opción que mejor se adapte a tu rutina.</p>
+                        </div>
+                    </article>
+
+                    <article class="faq-item">
+                        <button class="faq-question" type="button">
+                            <span>¿Cómo sé si necesito terapia?</span>
+                            <span class="faq-symbol">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Si sientes ansiedad, bloqueo, tristeza persistente o simplemente deseas comprenderte mejor, la terapia puede ayudarte.</p>
+                        </div>
+                    </article>
+
+                    <article class="faq-item">
+                        <button class="faq-question" type="button">
+                            <span>¿Cuál es el costo?</span>
+                            <span class="faq-symbol">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>El costo depende del tipo de sesión. Puedes escribirme por WhatsApp y con gusto te comparto la información actualizada.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formulario demo conectado a WhatsApp -->
+        <section class="booking section" id="agenda">
+            <div class="container booking-layout">
+                <div class="booking-info reveal">
+                    <p class="section-tag">Agenda tu cita</p>
+                    <h2>Tu proceso puede empezar con un solo mensaje</h2>
+                    <p>
+                        Completa el formulario y me pondré en contacto contigo para confirmar disponibilidad. También puedes escribirme directamente por WhatsApp.
+                    </p>
+
+                    <div class="schedule-card">
+                        <strong>Horarios disponibles</strong>
+                        <span>Lunes a viernes · 9:00 a 19:00</span>
+                        <span>Sábados · 10:00 a 14:00</span>
+                    </div>
+                </div>
+
+                <form class="booking-form reveal delay-1">
+                    <!-- Cambia estos textos o conecta el formulario a un backend si más adelante quieres hacerlo funcional. -->
+                    <label>
+                        Nombre completo
+                        <input type="text" name="name" placeholder="Tu nombre" required>
+                    </label>
+
+                    <label>
+                        Correo electrónico
+                        <input type="email" name="email" placeholder="correo@ejemplo.com" required>
+                    </label>
+
+                    <label>
+                        Teléfono
+                        <input type="tel" name="phone" placeholder="55 0000 0000" required>
+                    </label>
+
+                    <label>
+                        Motivo de consulta
+                        <textarea name="message" rows="4" placeholder="Cuéntame brevemente qué te gustaría trabajar"></textarea>
+                    </label>
+
+                    <label>
+                        Modalidad
+                        <select name="mode">
+                            <option value="Presencial">Presencial</option>
+                            <option value="Online">Online</option>
+                        </select>
+                    </label>
+
+                    <button class="button button-primary" type="submit">Solicitar información</button>
+                    <p class="form-note">Este demo abre WhatsApp con tu mensaje listo para enviar.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer breve con accesos rápidos y redes -->
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <a class="brand footer-brand" href="#inicio">
+                    <span class="brand-mark">ER</span>
+                    <span class="brand-text">Dra. Elena Robles</span>
+                </a>
+                <p>Un espacio sereno para hablar, comprender y avanzar con más claridad.</p>
+            </div>
+
+            <div>
+                <strong>Links rápidos</strong>
+                <nav class="footer-links">
+                    <a href="#sobre-mi">Sobre mí</a>
+                    <a href="#servicios">Servicios</a>
+                    <a href="#preguntas">FAQ</a>
+                    <a href="#agenda">Agenda</a>
+                </nav>
+            </div>
+
+            <div>
+                <strong>Redes</strong>
+                <div class="footer-links">
+                    <a href="https://www.instagram.com" target="_blank" rel="noreferrer">Instagram</a>
+                    <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+                    <a href="mailto:contacto@elenarobles.com">Correo</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
